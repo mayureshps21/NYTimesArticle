@@ -23,6 +23,9 @@ API used - https://api.nytimes.com/
 11. Mockk.
     <br>
 
+Add Below line in local.properties for API response:
+NYTimesApiKey=b61Rg7v1AwLS7FM9z6Ri2dhAIJLKvfsX
+
 ## The app has following packages:
 1. **data**: This package is responsible for providing data to the application.
 2. **domain**: This layer has use case and business logic.
