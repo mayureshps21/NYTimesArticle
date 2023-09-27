@@ -4,8 +4,8 @@ API used - https://api.nytimes.com/
 
 <br>
 <p align="center">
-    <img src="screen1.png" width="250"/>
-    <img src="screen2.png" width="250"/>
+    <img src="screenshots/screen1.png" width="250"/>
+    <img src="screenshots/screen2.png" width="250"/>
 </p>
 <br>
 
