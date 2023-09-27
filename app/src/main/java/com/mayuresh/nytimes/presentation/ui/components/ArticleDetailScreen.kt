@@ -57,7 +57,6 @@ fun ArticleDetailScreenComponent(
         Text(
             text = article.byLine,
             maxLines = 1,
-            color = Color.DarkGray,
             fontWeight = FontWeight.Bold,
             style = NYTimesTypography.labelSmall
         )
@@ -67,7 +66,6 @@ fun ArticleDetailScreenComponent(
             text = article.publishDate,
             modifier = Modifier.fillMaxWidth(),
             maxLines = 1,
-            color = Color.DarkGray,
             textAlign = TextAlign.End,
             style = NYTimesTypography.labelSmall
 
@@ -77,7 +75,6 @@ fun ArticleDetailScreenComponent(
         Text(
             text = article.descriptionAbstract,
             modifier = Modifier.fillMaxWidth(),
-            color = Color.DarkGray,
             style = NYTimesTypography.bodyMedium
         )
 
@@ -88,9 +85,9 @@ fun ArticleDetailScreenComponent(
                 .fillMaxWidth()
                 .clickable { onReadMoreButtonClick.invoke(article.webpageURL) },
             maxLines = 1,
-            color = Color.Blue,
             textAlign = TextAlign.End,
-            style = NYTimesTypography.labelSmall
+            style = NYTimesTypography.labelSmall,
+            fontWeight = FontWeight.Bold
         )
     }
 }

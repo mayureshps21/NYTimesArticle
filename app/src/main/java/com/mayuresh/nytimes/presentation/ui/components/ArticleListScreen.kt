@@ -93,7 +93,7 @@ fun ArticleListItem(
 ) {
     Card(
         shape = NYTimesShapes.medium,
-        colors = CardDefaults.cardColors(containerColor = Color.White),
+//        colors = CardDefaults.cardColors(containerColor = Color.White),
         elevation = CardDefaults.cardElevation(defaultElevation = 5.dp),
         modifier = Modifier
             .fillMaxWidth()
@@ -135,7 +135,6 @@ fun ArticleListItem(
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
                     text = article.byLine,
-                    color = Color.DarkGray,
                     maxLines = 1,
                     style = NYTimesTypography.labelMedium
                 )
@@ -143,7 +142,6 @@ fun ArticleListItem(
 
                     Text(
                         text = article.source,
-                        color = Color.DarkGray,
                         maxLines = 1,
                         modifier = Modifier.weight(1f),
                         style = NYTimesTypography.labelMedium
@@ -151,7 +149,6 @@ fun ArticleListItem(
 
                     Text(
                         text = article.publishDate,
-                        color = Color.DarkGray,
                         maxLines = 1,
                         style = NYTimesTypography.labelMedium
                     )
